@@ -1,5 +1,22 @@
 # Binary Search on Answers
 
+Instead of binary searching over an input array, we binary search over the **range of possible answers**.
+
+The pattern applies whenever:
+1. The answer is an integer in some bounded range `[low, high]`.
+2. There's a feasibility predicate `check(x)` that's **monotonic** — once it flips from false to true (or true to false) as `x` grows, it stays flipped.
+
+Then the valid answers form a sorted boolean tail like `F F F … T T T`, and we binary search for the boundary. Typical `check(x)` asks "can we do the task using `x` as the rate / capacity / day / divisor?" — computed in `O(n)` per call.
+
+```
+x:        low …                              high
+check:     F   F   F   F   T   T   T   T   T
+                           ^
+                           leftmost true = minimum valid answer
+```
+
+**Time complexity** is generally `O(n · log(range))` — a `log` factor over the answer range, with each step doing a linear feasibility check.
+
 Problems from Striver's A2Z Sheet — *Step 4.2: Binary Search on Answers*.
 
 | # | Problem |
