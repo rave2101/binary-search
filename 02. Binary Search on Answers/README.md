@@ -1,6 +1,6 @@
-# BS on Answers
+# Binary Search on Answers
 
-Problems from Striver's A2Z Sheet — *Step 4.2: BS on Answers*.
+Problems from Striver's A2Z Sheet — *Step 4.2: Binary Search on Answers*.
 
 | # | Problem |
 |---|---|
