@@ -1,6 +1,6 @@
 # Binary Search on 1D Arrays
 
-Problems from Striver's A2Z Sheet — *Step 4.1: Binary Search on 1D Arrays*.
+The classic flavour of binary search: a sorted (or rotated-sorted) one-dimensional array, an `O(log n)` walk that halves the search space at every step. The problems below build up the core toolkit — locating an exact value, finding the first/last position that satisfies a predicate (lower/upper bound), and adapting the invariant when the array has been rotated or has a structural quirk like a single non-duplicated element.
 
 | # | Problem | Article | Solution |
 |---|---|---|---|

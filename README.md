@@ -10,7 +10,7 @@ Each problem folder contains `solution.cpp` and a `README.md` explaining the app
 
 | # | Topic |
 |---|---|
-| 01 | [BS on 1D Arrays](01.%20BS%20on%201D%20Arrays/) |
+| 01 | [Binary Search on 1D Arrays](01.%20Binary%20Search%20on%201D%20Arrays/) |
 | 02 | [BS on Answers](02.%20BS%20on%20Answers/) |
 | 03 | [BS on 2D Arrays](03.%20BS%20on%202D%20Arrays/) |
 
